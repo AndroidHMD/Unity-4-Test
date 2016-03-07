@@ -11,7 +11,7 @@
             <Part name="hmd_cube_v2.Left" translation="-1.2 0 0" rotation="AD: 0 1 0 -90"/>
             <Part name="hmd_cube_v2.Right" translation="1.2 0 0" rotation="AD: 0 1 0 90"/>
             <Part name="hmd_cube_v2.Front" translation="0 0 0.9" rotation="AD: 1 0 0 0"/>
-            <Part name="hmd_cube_v2.Back" translation="0 0 -0.9" rotation="AD: 0 1 0 180"/>
+            <Part name="hmd_cube_v2.Back" translation="0 0 -0.9" rotation="AD: 1 0 0 180"/>
             <Part name="hmd_cube_v2.Top" translation="0 0.95 0" rotation="AD: 1 0 0 -90"/>
             <Part name="hmd_cube_v2.Bottom" translation="0 -0.95 0" rotation="AD: 1 0 0 90"/>
         </MultiTarget>
