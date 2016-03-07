@@ -5,6 +5,10 @@ public class RemoveVuforiaComponentsFromChildren : MonoBehaviour {
 	public GameObject targetsParent;
 
 	void Start () {
+		if (targetsParent == null) {
+			targetsParent = GameObject.Find ("ChildTargets");
+		}
+
 		int count = 0;
 
 		foreach (Transform childTransform in targetsParent.transform)
